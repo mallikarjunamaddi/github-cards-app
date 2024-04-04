@@ -5,7 +5,7 @@ class CardList extends React.Component {
   render() {
     return (
       <div>
-        {this.props.users.map(userData => <Card user={userData} key={userData.name}/> )}
+        {this.props.users.map(userData => <Card user={userData} key={userData.id}/> )}
       </div>
     );
   }

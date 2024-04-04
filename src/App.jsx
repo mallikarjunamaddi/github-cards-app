@@ -5,8 +5,8 @@ import InputForm from './InputForm'
 
 // Source Github API for below data https://api.github.com/users/mallikarjunamaddi
 const userProfiles = [
-    {avatar_url: "https://avatars.githubusercontent.com/u/22195101?v=4", name: "Mallikarjuna Maddi", company: "@microsoft"},
-    {avatar_url: "https://avatars.githubusercontent.com/u/25254?v=4", name: "TJ Holowaychuk", company: "Apex"},
+    {id: 22195101, avatar_url: "https://avatars.githubusercontent.com/u/22195101?v=4", name: "Mallikarjuna Maddi", company: "@microsoft"},
+    {id: 25254, avatar_url: "https://avatars.githubusercontent.com/u/25254?v=4", name: "TJ Holowaychuk", company: "Apex"},
 ];
 
 class App extends React.Component {
