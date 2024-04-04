@@ -1,7 +1,5 @@
 # GitHub Cards App with React 🚀
 
-![GitHub Cards App Screenshot](https://example.com/path/to/screenshot.png)
-
 This project is a simple **GitHub Cards App** built using **React**. It allows users to enter a GitHub username and displays the user's profile information on cards within the app.
 
 ## Features
