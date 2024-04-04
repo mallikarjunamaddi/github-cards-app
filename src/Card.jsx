@@ -2,12 +2,13 @@ import React from "react";
 
 class Card extends React.Component {
     render() {
+        const user = this.props.user;
         return (
             <div className="github-profile">
-                <img src="https://avatars1.githubusercontent.com/u/810455?v=4" alt="User" />
+                <img src={user.avatar_url} alt="User" />
                 <div className="info">
-                    <div>Name here...</div>
-                    <div>Company here...</div>
+                    <div>{user.name}</div>
+                    <div>{user.company}</div>
                 </div>
             </div>
         );
